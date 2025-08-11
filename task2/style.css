@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.align
+{
+    align-items: center;
+}
+.my-container{
+    width: 100%;
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+body{
+    font-size: 18px;
+    font-weight: 400;
+}
+.d-flex {
+    display: flex!important;
+    align-items: center;
+  
+}
+.bg-color{
+    background-color: #4e705f;
+}
+.padding{
+    padding: 80px 0px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.Xl-heading {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.large-heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.content-section p{
+    font-size: 20px;
+}
+.btn {
+    background-color: #f8e71c;
+    padding: 18px 57px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 25px 0px;
+}
+a.btn:hover{
+    color: white;
+    background-color: yellow;
+}
+.badge-container p {
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1;
+    color: white;
+}
+
+.mobile1 {
+    position: relative;
+    background: #333333;
+    left: 20px;
+    border-radius: 25px;
+}
+.seller-img {
+    position: absolute;
+    right: 74px;
+    top: 116px;
+}
+.book-content {
+    position: absolute;
+    top: 326px;
+    color: white;
+    right: 194px;
+}
+.sm-text {
+    position: absolute;
+    right: 135px;
+}
+.text-style {
+    color: yellow;
+    margin-right: 53px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.border-btm{
+    border-bottom: 1px solid white;
+}
+
+.lg-container{
+    max-width: 1330;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 80px;
+}
+.color-1{
+    color:  #4e705f;
+}
+.color-2{
+    color: #eb5850;
+}
+.time-box{
+    background-color: #4e705f;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    border-radius: 4px;
+}
+.time-box span{
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.profile {
+    background: green;
+    padding: 50px;
+    border-radius: 67px;
+    position: relative;
+}
+.profile-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 61%;
+    top: 0px;
+    left: 0px;
+}
+.role{
+    color: gray;
+}
+.testimonial-section{
+    background-color: #e4e9e7;
+}
+.testimonial-card {
+    background: white;
+    padding: 23px;
+    border-radius: 19px;
+}
+.color-3{
+    color: yellow;
+}
+
+.section-2{
+    background-color: #719a86;
+}
+.section-3{
+ background-color: #718e7f;
+}
+.section-4{
+       background-color: #719a86;
+        border-bottom-right-radius: 15px;
+}
+.section-1 , .section-2 , .section-3 , .section-4{
+  padding: 27px 22px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.section-1 {
+    background-color: #718e7f;
+    border-bottom-left-radius: 15px;
+}
+.banner {
+    border-radius: 15px 15px 0px 0px;
+}
+ul li{
+    list-style-type: none;
+}
