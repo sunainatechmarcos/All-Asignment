@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul li{
+    margin: 0;
+    padding: 0;
+}
 .align
 {
     align-items: center;
@@ -38,9 +42,13 @@ a{
     font-weight: 700;
 }
 .large-heading{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
     margin: 20px 0px;
+}
+.s-heading{
+    font-size: 30px;
+    font-weight: 700;
 }
 .small-heading{
     font-size: 20px;
@@ -55,6 +63,8 @@ a{
     border-radius: 3px;
     display: inline-block;
     margin: 25px 0px;
+    font-weight: 600;
+    font-size: 20px;
 }
 a.btn:hover{
     color: white;
@@ -175,13 +185,75 @@ a.btn:hover{
 .banner {
     border-radius: 15px 15px 0px 0px;
 }
-.check-ticks {
-    padding: 12px 0px;
+.buy-section {
+    background-color:#e4e9e7;
 }
-ul li{
+ul li {
     list-style-type: none;
+    padding: 7px 2px;
+}
+ul.check-ticks {
+    padding: 0px;
 }
 .rating{
-  
-    padding: 17px 0px;
+   padding: 17px 0px;
+}
+a.btn.get-btn {
+    padding: 12px 23px;
+}
+.brand {
+    padding: 0px 8px;
+}
+.img-section{
+    position: relative;
+}
+img.img-1 {
+    position: relative;
+    z-index: 1;
+}
+img.img-2 {
+    position: absolute;
+    right: 64px;
+    top: 168px;
+}
+
+.before {
+    background: black;
+}
+.before, .after {
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+i.fa-solid.fa-check {
+    background: #84A98C;
+    border-radius: 32px;
+    padding: 2px 0px;
+    margin-right: 10px;
+}
+
+.Achievement-sec{
+ background-color:#e4e9e7;
+ }
+.color-4{
+    color: #4e705f;
+}
+.achievements {
+    background: white;
+    padding: 11px 35px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px 0px;
+}
+.achieve-bg {
+    background: none;
+    border: 1px solid #585858;
+}
+
+.btn1 {
+    padding: 16px 48px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
 }
