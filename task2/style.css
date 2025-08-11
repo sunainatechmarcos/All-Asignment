@@ -67,9 +67,7 @@ a.btn:hover{
 }
 
 .mobile1 {
-    position: relative;
     background: #333333;
-    left: 20px;
     border-radius: 25px;
 }
 .seller-img {
@@ -127,11 +125,12 @@ a.btn:hover{
     border-radius: 67px;
     position: relative;
 }
-.profile-img{
+.profile-img {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 105%;
     border-radius: 61%;
+    object-fit: cover;
     top: 0px;
     left: 0px;
 }
