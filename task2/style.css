@@ -42,7 +42,10 @@ a{
     font-weight: 700;
     margin: 20px 0px;
 }
-
+.small-heading{
+    font-size: 20px;
+    font-weight: 600;
+}
 .content-section p{
     font-size: 20px;
 }
@@ -120,15 +123,15 @@ a.btn:hover{
 
 }
 .profile {
-    background: green;
+    background:white;
     padding: 50px;
     border-radius: 67px;
     position: relative;
 }
 .profile-img {
     position: absolute;
-    width: 100%;
-    height: 105%;
+    width: 94%;
+    height: 100%;
     border-radius: 61%;
     object-fit: cover;
     top: 0px;
@@ -142,7 +145,7 @@ a.btn:hover{
 }
 .testimonial-card {
     background: white;
-    padding: 23px;
+    padding: 23px 23px;
     border-radius: 19px;
 }
 .color-3{
@@ -161,16 +164,24 @@ a.btn:hover{
 }
 .section-1 , .section-2 , .section-3 , .section-4{
   padding: 27px 22px;
-    font-weight: 600;
+   
     line-height: 25px;
 }
 .section-1 {
     background-color: #718e7f;
     border-bottom-left-radius: 15px;
+    padding: 40px 21px;
 }
 .banner {
     border-radius: 15px 15px 0px 0px;
 }
+.check-ticks {
+    padding: 12px 0px;
+}
 ul li{
     list-style-type: none;
+}
+.rating{
+  
+    padding: 17px 0px;
 }
