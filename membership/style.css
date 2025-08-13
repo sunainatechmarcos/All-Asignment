@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+:root {
+    --primary-color: #0E4287;
+    --text-color : #1D1D1D;
+    --tag-color: #1DBDA3;
+    --light: #fff;
+    --light-green:#0E8773;
+    --body-text: #646F79;
+
+}
+@font-face {
+    font-family: 'Raleway'; /* Choose a name for your font */
+    src: url("fonts/Raleway-Bold.ttf");
+   
+}
+
+/* Typo */
+
+.head-xl{font-size: 56px; font-family: 'Raleway'; font-weight: 700;color: var(--text-color);}
+.head-lg{font-size: 40px; font-weight: 700; font-family: 'Raleway'; color: var(--text-color); margin-bottom: 20px;}
+.head-tag{font-size: 20px; font-weight: 600; font-family: 'Raleway'; color: var(--tag-color); margin-bottom: 10px;}
+.head-sm{font-size: 25px;font-weight: 700; font-family: 'Raleway';  color: var(--light); margin-bottom: 20px;}
+.text{font-size: 18px; font-weight: 400;}
+
+/* button settings */
+.theme-btn{min-width: 200px;font-size: 20px; padding: 10px 20px;}
+.btn-blue{background: var(--primary-color); color: var(--light);}
+.btn-green{background: var(--light-green); color: var(--light);}
+.btn-white {
+    background: var(--light);
+    color: var(--primary-color);
+    text-align: center;
+}
+.bg-light-blue{background-color: rgba(14, 66, 135, 0.05);}
+
+
+.sec-pd{padding-top: 80px;padding-bottom: 80px;}
+.sec-md-pd{padding-top: 60px;padding-bottom: 60px;}
+
+body{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: var(--body-text);
+}
+.top-bar {
+    background-color: var(--primary-color);
+    color: var(--light);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top-bar-head{
+    justify-content: center;
+    gap: 64px;
+    font-size: 20px;
+    align-items: center;
+}
