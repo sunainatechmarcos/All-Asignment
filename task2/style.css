@@ -65,7 +65,11 @@ a{
     display: inline-block;
     margin: 25px 0px;
     font-weight: 600;
-    font-size: 20px;
+   
+}
+.img-fix{
+    width: 100%;
+    height: auto;
 }
 a.btn:hover{
     color: white;
@@ -117,12 +121,22 @@ a.btn:hover{
 .color-2{
     color: #eb5850;
 }
-.time-box{
+.time-section {
+    justify-content: center;
+    gap: 10px;
+    margin: 19px 0;
+    flex-wrap: wrap;
+}
+.time-box {
     background-color: #4e705f;
     color: white;
-    padding: 8px 18px;
     text-align: center;
+    min-width: 92px;
     border-radius: 4px;
+    min-height: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .time-box span{
     font-size: 24px;
@@ -197,7 +211,7 @@ ul.check-ticks {
 .rating{
    padding: 17px 0px;
 }
-a.btn.get-btn {
+.get-btn {
     padding: 12px 23px;
 }
 .brand {
@@ -206,8 +220,10 @@ a.btn.get-btn {
 .img-section{
     position: relative;
 }
+
 img.img-1 {
-   margin-top: -15%;
+    margin-top: -22%;
+    position: relative;
 }
 img.img-2 {
    
@@ -215,7 +231,9 @@ img.img-2 {
         margin-left: -28%;
 
 }
-
+.happy-reader img {
+    margin: 9px 0px;
+}
 .before {
     background: black;
 }
@@ -238,25 +256,62 @@ i.fa-solid.fa-check {
 .color-4{
     color: #4e705f;
 }
+
 .achievements {
     background: white;
     padding: 11px 35px;
     text-align: center;
     border-radius: 15px;
     margin: 10px 0px;
+    aspect-ratio: 1;
+
+}
+.achieve-new{
+max-width: 400px;
+margin: 0 auto;
 }
 .achieve-bg {
     background: none;
     border: 1px solid #585858;
 }
-
+.btn-section.d-flex {
+    font-size: 16px;
+    gap: 10px;
+    justify-content: center;
+}
 .btn1 {
-    padding: 16px 48px;
+    padding: 16px 28px;
     border: none;
     border-radius: 8px;
     font-weight: 600;
 }
-
+.before-list li {
+    background: black;
+    color: white;
+    padding: 17px 11px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+.before-list li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.after-list li {
+    background: #4e705f;
+    color: white;
+    padding: 17px 11px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+.after-list li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.before-list , .after-list p{
+    margin-bottom: 2px;
+}
 .card-section{
     background-color: #e4e9e7;
 }
@@ -264,6 +319,8 @@ i.fa-solid.fa-check {
     background: white;
     padding: 18px 0 0 0;
     border-radius: 12px;
+    max-width: 400px;
+    margin: 11px auto;
 }
 .card-content .btn{
     padding: 13px 73px;
@@ -302,6 +359,17 @@ i.fa-solid.fa-check {
     .testimonial-card {
         
         padding: 23px 14px;
+    }
+    .img-section{
+        max-width: 300px;
+    }
+    img.img-1 {
+        margin-top: 31%;
+        position: relative;
+    }
+    img.img-2 {
+        margin-top: -49%;
+        margin-left: 116px;
     }
 }
 
@@ -342,7 +410,36 @@ i.fa-solid.fa-check {
    .img-margin {
     margin: 13px 0px;
    }
-   img.img-2 {
 
 }
+
+
+@media(max-width : 425px){
+    .Xl-heading {
+        font-size: 51px;
+    }
+    .large-heading {
+        font-size: 26px;
+    }
+    .offer-sec .description{
+        display: none;
+    }
+    .time-section , .btn-section{
+        flex-wrap: wrap;
+    }
+    .section-1, .section-2, .section-3, .section-4 {
+        padding: 14px 10px;
+    }
+    .testimonial-card {
+        margin: 10px 0px;
+    }
+    .img-section{
+        max-width: 235px;
+    }
+   
+        img.img-2 {
+            margin-top: -49%;
+            margin-left: 116px;
+        }
+    
 }
